@@ -34,7 +34,7 @@ This node allows you to dynamically schedule and blend multiple LoRAs (like High
 2.  Run:
     ```bash
     git clone https://github.com/LeonQ8/ComfyUI-Dynamic-Lora-Scheduler.git
-    cd ComfyUI-Adaptive-LoRA-Scheduler
+    cd ComfyUI-Dynamic-Lora-Scheduler
     pip install -r requirements.txt ( it will install numpy>=1.20.0 and matplotlib>=3.3.0 make sure it doesn't conflict with your environment)
     ```
 3.  Restart ComfyUI.
