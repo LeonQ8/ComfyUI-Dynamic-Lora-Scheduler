@@ -1,6 +1,6 @@
 # Adaptive LoRA Scheduler for ComfyUI
 
-**Smart LoRA Blending for Wan 2.2 I2V & Video Generation**
+**Smart LoRA Blending for Wan 2.2 I2V**
 
 
 **I TRIED TO DO SOMETHING BENEFICIAL AND NEW, BUT IT TURNED OUT AS A FAILURE, MAYBE I DIDN'T TEST IT ENOUGH AND SOMEONE ELSE WILL FIND IT USEFUL**
