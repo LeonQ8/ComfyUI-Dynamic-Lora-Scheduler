@@ -8,7 +8,7 @@
 **in the workflow provided the Speed Loras will be set at strength 1.0, and only LoRA's connected to Adaptive LoRA Scheduler will be blended Dynamically**
 
 
-This node allows you to dynamically schedule and blend multiple LoRAs (like High/Low frequency models) over the generation steps. It includes an **Adaptive Mode** that automatically adjusts the blend curve based on the complexity of your input images.
+This node allows you to dynamically schedule and blend multiple LoRAs (like High/Low frequency models) over the generation steps. It includes an **Adaptive Mode** that automatically adjusts the blend curve based on the complexity of your input image.
 
 ## ✨ Features
 - **Dynamic Scheduling**: Choose from `Linear`, `Ease-In`, `Ease-Out`, `Sigmoid`, or custom curves.
@@ -59,7 +59,7 @@ This node allows you to dynamically schedule and blend multiple LoRAs (like High
         - `Model Loader` → `WanVideoSetLoRAs` (Speed LoRA) → **`WanVideoSetLoRAs` (Adaptive Node)** → `KSampler`.
         - You need a *new* `WanVideoSetLoRAs` node just for the Adaptive Scheduler. Connect the previous model output to this new node's input.
 4.  **Connect Image**:
-    - Connect your source image (for I2V) or video frames to the **`images`** input to enable Adaptive Mode.
+    - Connect your source image (for I2V) or video frames to the **`image`** input to enable Adaptive Mode.
 
 ### 3. Parameters Explained
 
@@ -70,7 +70,7 @@ This node allows you to dynamically schedule and blend multiple LoRAs (like High
 - **Ease-Out**: Starts fast, slows down at the end.
 - **Sigmoid**: Slow start → Fast middle → Slow end. Best for distinct phase separation.
 
-#### 🧠 Adaptive Mode (Requires `images` input)
+#### 🧠 Adaptive Mode (Requires `image` input)
 *Modulates the Blend Strategy based on image content using Frequency Analysis (FFT).*
 
 1.  **Adaptive Mode**: Set to `frequency_analysis` (Recommended). This accurately detects if your image is textured (High Freq) or smooth (Low Freq).
