@@ -42,7 +42,7 @@ This node allows you to dynamically schedule and blend multiple LoRAs (like High
 #### Method B: Manual (Zip)
 1.  Download the ZIP file from this repo.
 2.  Extract it into `ComfyUI/custom_nodes/`.
-3.  Ensure the folder name is `ComfyUI-Adaptive-LoRA-Scheduler`.
+3.  Ensure the folder name is `ComfyUI-Dynamic-Lora-Scheduler`.
 4.  Run `pip install -r requirements.txt`.
 5.  Restart ComfyUI.
 
