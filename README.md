@@ -8,7 +8,7 @@
 **in the workflow provided the Speed Loras will be set at strength 1.0, and only LoRA's connected to Adaptive LoRA Scheduler will be blended Dynamically**
 
 
-This node allows you to dynamically schedule and blend multiple LoRAs (like High/Low frequency models) over the generation steps. It includes an **Adaptive Mode** that automatically adjusts the blend curve based on the complexity of your input image.
+This node allows you to dynamically schedule and blend multiple LoRAs (High/Low) over the generation steps. It includes an **Adaptive Mode** that automatically adjusts the blend curve based on the complexity of your input image.
 
 ## ✨ Features
 - **Dynamic Scheduling**: Choose from `Linear`, `Ease-In`, `Ease-Out`, `Sigmoid`, or custom curves.
