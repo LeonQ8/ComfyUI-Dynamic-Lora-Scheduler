@@ -3,7 +3,7 @@
 **Smart LoRA Blending for Wan 2.2 I2V & Video Generation**
 
 
-** i tried to do something beneficial and new, but it turned out as a failure, maybe i didn't test it enough and someone else will find it useful**
+**i tried to do something beneficial and new, but it turned out as a failure, maybe i didn't test it enough and someone else will find it useful**
 
 
 This node allows you to dynamically schedule and blend multiple LoRAs (like High/Low frequency models) over the generation steps. It includes an **Adaptive Mode** that automatically adjusts the blend curve based on the complexity of your input images.
