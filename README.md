@@ -27,7 +27,7 @@ This node allows you to dynamically schedule and blend multiple LoRAs (High/Low)
 
 ## 🚀 Quick Start Guide
 
-### 1. Installatio
+### 1. Installation
 
 #### Method A: Git Clone
 1.  Open command line in `ComfyUI/custom_nodes/`
